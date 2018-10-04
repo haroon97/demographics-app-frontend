@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import SignIn from './components/SignIn';
-import Register from './components/Register';
+import Dashboard from './components/Dashboard';
 
-ReactDOM.render(<Register />, document.getElementById('root'));
+ReactDOM.render(<Dashboard />, document.getElementById('root'));
