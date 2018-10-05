@@ -1,10 +1,12 @@
 import React from 'react';
 import {Button, Form, Header} from 'semantic-ui-react';
+import { NavLink } from 'react-router-dom';
 
 class Register extends React.Component {
   render() {
     return (
       <div>
+        <NavLink exact={true} to='/'>Sign In!</NavLink>
         <Form>
          <Header as='h2'>Register!</Header>
          <Form.Group>

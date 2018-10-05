@@ -6,6 +6,7 @@ class SignIn extends React.Component {
   render() {
     return (
       <div>
+        <NavLink to='/register'>Register</NavLink>
         <Form>
         <Header as='h2'>Sign In!</Header>
         <Form.Group>
